@@ -5,13 +5,12 @@
 
   
   <header>
-    <div class="logo">MySite</div>
+    <div class="logo">ZOO z postele</div>
     
     <div class="nav-links">
-      <a href="/">Home</a>
-      <a href="/about">About</a>
-      <a href="/services">Services</a>
-      <a href="/contact">Contact</a>
+      <a href="/">Mapa</a>
+      <a href="/about">Kurzy</a>
+      <a href="/services">Encyklopedie</a>
     </div>
   
     <!-- Ikona pro mobilní verzi -->
@@ -21,12 +20,6 @@
       <span></span>
     </div>
 
-      <div class="nav-links mobile">
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/services">Services</a>
-        <a href="/contact">Contact</a>
-      </div>
 
   </header>
 
@@ -49,7 +42,7 @@ header .wrapper-hamburger span {
 }
     /* Základní styly pro záhlaví */
     header {
-      background-color: #333;
+      background-color: #372e29;
       color: white;
       padding: 1rem;
       display: flex;
@@ -65,6 +58,7 @@ header .wrapper-hamburger span {
     .nav-links {
       display: flex;
       gap: 1rem;
+      font-size: 22px;
     }
   
     .nav-links a {
